@@ -1,0 +1,81 @@
+/* style.css start */
+body 
+{
+	margin-left: 10%; 
+	margin-right: 10%;
+	color: black;
+	background: #87AEC5;
+	background-image: url(images/bg.gif);
+	background-repeat: repeat-x;
+}
+div.box /*<div class='box'> </div>*/
+{
+	border: solid;
+	border-width: thin;
+	width: 100%;
+}
+div.blue /*<div class='blue'> </div>*/
+{
+	border: none;
+	padding: 1em;
+	/*background: #CDCDFF;*/
+	/* CDCDFF is not in the 256 colors defined as browser safe, although it is pretty */
+	background: #EDF9FF;
+}
+div.red /*<div class='red'> </div>*/
+{
+	border: none;
+	padding: 1em;
+	background: #FF9999;
+}
+.boarder /*div class='boarder'> </div>*/
+{
+	height: 65px;
+	width: 160px;
+	-mox-boarder-radius: 25px 10px / 10px 25px;
+	boarder-radius: 25px 10px / 10px 25px;
+	-webkit-boarder-radius: 25px 10px / 10px 25px;
+}
+
+.money /*<span class='money'> </span>*/
+{
+	font-size: 125%;
+	font-weight: bold;
+	/* color: #33CC33; */   /* Nice green color */
+	color: #008833;
+}
+.catname /* */
+{
+	font-weight: bold;
+	font-size: 125%;
+}
+.link
+{
+	color: #000066;
+}
+.smallfont
+{
+	font-size: 88%;
+}
+.largefont
+{
+	font-size: 150%;
+}
+.textbox
+{
+	border: thin solid #339;
+	font-size: smaller;
+	margin: 1px;
+	padding: 1px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.textboxfont
+{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: smaller;
+}
+.hrline
+{
+	visibility: hidden;
+}
+/* style.css end */
